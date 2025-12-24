@@ -1,15 +1,12 @@
 from fastapi import FastAPI, UploadFile, File, Form
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.staticfiles import StaticFiles
-from typing import Optional
+from .recommendation import generate_diet_plan
+from .clinical_parser import parse_clinical_report
 import shutil
-import os
+from pathlib import Path
 
-from src.recommendation import generate_recommendations_for_user
+app = FastAPI()
 
-app = FastAPI(title="Meal Plan API")
-
-# Allow CORS (frontend can access API)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -17,67 +14,29 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# ✅ Force absolute path for upload folder
-PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-UPLOAD_DIR = os.path.join(PROJECT_ROOT, "data", "uploads")
+UPLOAD_DIR = Path(__file__).parent / "uploads"
+UPLOAD_DIR.mkdir(exist_ok=True)
 
-# Force-create the upload directory
-os.makedirs(UPLOAD_DIR, exist_ok=True)
-print("✅ Upload directory path:", UPLOAD_DIR)
-
-# Serve static HTML
-STATIC_DIR = os.path.join(os.path.dirname(__file__), "static")
-app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
-
-
-@app.get("/")
-def home():
-    return {"message": "Meal Plan API is running properly."}
-
-
-@app.post("/generate_meal_plan")
-async def generate_meal_plan(
+@app.post("/recommend")
+async def recommend(
     age: int = Form(...),
-    weight_kg: float = Form(...),
-    height_cm: float = Form(...),
-    activity_level: str = Form(...),
+    weight: float = Form(...),
+    height: float = Form(...),
     gender: str = Form(...),
-    goal: str = Form(...),
-    diabetes: str = Form(...),
-    report: Optional[UploadFile] = File(None),
+    activity: str = Form(...),
+    diabetic: bool = Form(False),
+    report: UploadFile = File(None)
 ):
-    try:
-        report_path = None
+    diabetic_flag = diabetic
 
-        # ✅ Ensure upload folder exists
-        os.makedirs(UPLOAD_DIR, exist_ok=True)
+    if diabetic and report:
+        file_path = UPLOAD_DIR / report.filename
+        with open(file_path, "wb") as f:
+            shutil.copyfileobj(report.file, f)
 
-        # ✅ Save uploaded file (if provided)
-        if report:
-            filename = report.filename or "uploaded_report.txt"
-            report_path = os.path.join(UPLOAD_DIR, filename)
+        report_data = parse_clinical_report(str(file_path))
+        diabetic_flag = report_data["diabetic"]
 
-            # Debug print (will show in terminal)
-            print(f"Saving file to: {report_path}")
-
-            with open(report_path, "wb") as buffer:
-                shutil.copyfileobj(report.file, buffer)
-
-        # ✅ Prepare data for recommendation
-        input_data = {
-            "age": age,
-            "weight_kg": weight_kg,
-            "height_cm": height_cm,
-            "activity_level": activity_level,
-            "gender": gender,
-            "goal": goal,
-            "diabetes": diabetes.lower() == "true",
-            "report_file": report_path,
-        }
-
-        plan = generate_recommendations_for_user(input_data)
-        return plan
-
-    except Exception as e:
-        print("❌ Error occurred:", e)
-        return {"error": str(e)}
+    return generate_diet_plan(
+        age, weight, height, gender, activity, diabetic_flag
+    )

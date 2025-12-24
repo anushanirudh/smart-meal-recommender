@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Plan My Diet</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="hero">
+  <h1>Plan My Diet</h1>
+  <p>AI-Powered Personalized Nutrition</p>
+</header>
+
+<section class="container">
+  <div class="card">
+    <h2>Create Your Profile</h2>
+
+    <form id="dietForm">
+      <div class="grid">
+        <input type="number" id="age" placeholder="Age" required />
+        <input type="number" id="weight" placeholder="Weight (kg)" required />
+        <input type="number" id="height" placeholder="Height (cm)" required />
+
+        <select id="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+
+        <select id="activity">
+          <option value="weight_loss">Weight Loss</option>
+          <option value="maintain">Maintain</option>
+          <option value="weight_gain">Weight Gain</option>
+        </select>
+      </div>
+
+      <div class="diabetic-row">
+        <label>
+          <input type="checkbox" id="diabetic" />
+          Diabetic
+        </label>
+        <input type="file" id="report" accept="application/pdf" />
+      </div>
+
+      <button type="submit">Generate My Diet Plan</button>
+    </form>
+  </div>
+
+  <div id="result" class="result"></div>
+</section>
+
+<script src="js/app.js"></script>
+</body>
+</html>

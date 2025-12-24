@@ -1,56 +1,21 @@
 import pandas as pd
-import lightgbm as lgb
 import joblib
-from pathlib import Path
+from lightgbm import LGBMRegressor
 
-BASE_DIR = Path(__file__).resolve().parent
-DATA_DIR = BASE_DIR / "data"
-MODEL_DIR = BASE_DIR / "models"
+df = pd.read_csv("backend/app/data/users.csv")
 
-MODEL_DIR.mkdir(exist_ok=True)
+df["gender"] = df["gender"].str.lower().map({"male": 0, "female": 1})
+df["activity_level"] = df["activity_level"].map({
+    "weight_loss": 0,
+    "maintain": 1,
+    "weight_gain": 2
+})
 
-def train_model():
-    users_df = pd.read_csv(DATA_DIR / "users.csv")
+X = df[["age", "weight_kg", "height_cm", "gender", "activity_level"]]
+y = df["daily_calories"]
 
-    # Encode gender (M=1, F=0)
-    users_df["gender"] = users_df["gender"].str.lower().map({"male": 1, "m": 1, "female": 0, "f": 0})
+model = LGBMRegressor(n_estimators=300, learning_rate=0.05)
+model.fit(X, y)
 
-    # Encode activity_level
-    activity_map = {
-        "low": 1,
-        "moderate": 2,
-        "high": 3
-    }
-    users_df["activity_level"] = users_df["activity_level"].str.lower().map(activity_map)
-
-    # Encode goal
-    goal_map = {
-        "weight_loss": 0,
-        "maintain": 1,
-        "muscle_gain": 2
-    }
-    users_df["goal"] = users_df["goal"].str.lower().map(goal_map)
-
-    feature_columns = ["age", "weight_kg", "height_cm", "activity_level", "gender"]
-
-    # Validate required columns
-    for col in feature_columns:
-        if col not in users_df.columns:
-            raise KeyError(f"❌ Column '{col}' not found in users.csv")
-
-    X = users_df[feature_columns]
-    y = users_df["goal"]
-
-    # Train model
-    model = lgb.LGBMRegressor()
-    model.fit(X, y)
-
-    # Save model
-    model_path = MODEL_DIR / "calorie_macro_predictor_lgbm.pkl"
-    joblib.dump(model, model_path)
-
-    print(f"✅ Model trained successfully with {len(X)} samples, saved at {model_path}")
-
-
-if __name__ == "__main__":
-    train_model()
+joblib.dump(model, "backend/app/models/calorie_lgbm.pkl")
+print("✅ LightGBM model trained and saved")

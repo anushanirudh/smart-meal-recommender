@@ -1,0 +1,1041 @@
+food_id,food_name,category,calories,protein,carbs,fat,fiber,glycemic_index,suitable_for
+1,Idli,breakfast,65,2,13,1,1,55,diabetes
+2,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+3,Egg Omelette,breakfast,180,12,2,14,0,10,general
+4,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+5,Fish Fry,lunch,220,28,2,12,0,0,general
+6,Chapati,lunch,118,4,18,2,3,60,general
+7,Rice,lunch,130,2,28,0,1,70,general
+8,Paneer Curry,dinner,240,16,6,15,1,45,general
+9,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+10,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+11,Curd,snack,80,5,3,4,0,35,diabetes
+12,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+13,Fruit Salad,snack,120,2,28,1,4,50,general
+14,Idli,breakfast,65,2,13,1,1,55,diabetes
+15,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+16,Egg Omelette,breakfast,180,12,2,14,0,10,general
+17,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+18,Fish Fry,lunch,220,28,2,12,0,0,general
+19,Chapati,lunch,118,4,18,2,3,60,general
+20,Rice,lunch,130,2,28,0,1,70,general
+21,Paneer Curry,dinner,240,16,6,15,1,45,general
+22,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+23,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+24,Curd,snack,80,5,3,4,0,35,diabetes
+25,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+26,Fruit Salad,snack,120,2,28,1,4,50,general
+27,Idli,breakfast,65,2,13,1,1,55,diabetes
+28,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+29,Egg Omelette,breakfast,180,12,2,14,0,10,general
+30,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+31,Fish Fry,lunch,220,28,2,12,0,0,general
+32,Chapati,lunch,118,4,18,2,3,60,general
+33,Rice,lunch,130,2,28,0,1,70,general
+34,Paneer Curry,dinner,240,16,6,15,1,45,general
+35,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+36,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+37,Curd,snack,80,5,3,4,0,35,diabetes
+38,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+39,Fruit Salad,snack,120,2,28,1,4,50,general
+40,Idli,breakfast,65,2,13,1,1,55,diabetes
+41,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+42,Egg Omelette,breakfast,180,12,2,14,0,10,general
+43,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+44,Fish Fry,lunch,220,28,2,12,0,0,general
+45,Chapati,lunch,118,4,18,2,3,60,general
+46,Rice,lunch,130,2,28,0,1,70,general
+47,Paneer Curry,dinner,240,16,6,15,1,45,general
+48,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+49,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+50,Curd,snack,80,5,3,4,0,35,diabetes
+51,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+52,Fruit Salad,snack,120,2,28,1,4,50,general
+53,Idli,breakfast,65,2,13,1,1,55,diabetes
+54,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+55,Egg Omelette,breakfast,180,12,2,14,0,10,general
+56,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+57,Fish Fry,lunch,220,28,2,12,0,0,general
+58,Chapati,lunch,118,4,18,2,3,60,general
+59,Rice,lunch,130,2,28,0,1,70,general
+60,Paneer Curry,dinner,240,16,6,15,1,45,general
+61,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+62,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+63,Curd,snack,80,5,3,4,0,35,diabetes
+64,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+65,Fruit Salad,snack,120,2,28,1,4,50,general
+66,Idli,breakfast,65,2,13,1,1,55,diabetes
+67,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+68,Egg Omelette,breakfast,180,12,2,14,0,10,general
+69,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+70,Fish Fry,lunch,220,28,2,12,0,0,general
+71,Chapati,lunch,118,4,18,2,3,60,general
+72,Rice,lunch,130,2,28,0,1,70,general
+73,Paneer Curry,dinner,240,16,6,15,1,45,general
+74,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+75,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+76,Curd,snack,80,5,3,4,0,35,diabetes
+77,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+78,Fruit Salad,snack,120,2,28,1,4,50,general
+79,Idli,breakfast,65,2,13,1,1,55,diabetes
+80,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+81,Egg Omelette,breakfast,180,12,2,14,0,10,general
+82,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+83,Fish Fry,lunch,220,28,2,12,0,0,general
+84,Chapati,lunch,118,4,18,2,3,60,general
+85,Rice,lunch,130,2,28,0,1,70,general
+86,Paneer Curry,dinner,240,16,6,15,1,45,general
+87,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+88,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+89,Curd,snack,80,5,3,4,0,35,diabetes
+90,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+91,Fruit Salad,snack,120,2,28,1,4,50,general
+92,Idli,breakfast,65,2,13,1,1,55,diabetes
+93,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+94,Egg Omelette,breakfast,180,12,2,14,0,10,general
+95,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+96,Fish Fry,lunch,220,28,2,12,0,0,general
+97,Chapati,lunch,118,4,18,2,3,60,general
+98,Rice,lunch,130,2,28,0,1,70,general
+99,Paneer Curry,dinner,240,16,6,15,1,45,general
+100,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+101,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+102,Curd,snack,80,5,3,4,0,35,diabetes
+103,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+104,Fruit Salad,snack,120,2,28,1,4,50,general
+105,Idli,breakfast,65,2,13,1,1,55,diabetes
+106,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+107,Egg Omelette,breakfast,180,12,2,14,0,10,general
+108,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+109,Fish Fry,lunch,220,28,2,12,0,0,general
+110,Chapati,lunch,118,4,18,2,3,60,general
+111,Rice,lunch,130,2,28,0,1,70,general
+112,Paneer Curry,dinner,240,16,6,15,1,45,general
+113,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+114,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+115,Curd,snack,80,5,3,4,0,35,diabetes
+116,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+117,Fruit Salad,snack,120,2,28,1,4,50,general
+118,Idli,breakfast,65,2,13,1,1,55,diabetes
+119,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+120,Egg Omelette,breakfast,180,12,2,14,0,10,general
+121,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+122,Fish Fry,lunch,220,28,2,12,0,0,general
+123,Chapati,lunch,118,4,18,2,3,60,general
+124,Rice,lunch,130,2,28,0,1,70,general
+125,Paneer Curry,dinner,240,16,6,15,1,45,general
+126,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+127,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+128,Curd,snack,80,5,3,4,0,35,diabetes
+129,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+130,Fruit Salad,snack,120,2,28,1,4,50,general
+131,Idli,breakfast,65,2,13,1,1,55,diabetes
+132,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+133,Egg Omelette,breakfast,180,12,2,14,0,10,general
+134,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+135,Fish Fry,lunch,220,28,2,12,0,0,general
+136,Chapati,lunch,118,4,18,2,3,60,general
+137,Rice,lunch,130,2,28,0,1,70,general
+138,Paneer Curry,dinner,240,16,6,15,1,45,general
+139,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+140,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+141,Curd,snack,80,5,3,4,0,35,diabetes
+142,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+143,Fruit Salad,snack,120,2,28,1,4,50,general
+144,Idli,breakfast,65,2,13,1,1,55,diabetes
+145,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+146,Egg Omelette,breakfast,180,12,2,14,0,10,general
+147,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+148,Fish Fry,lunch,220,28,2,12,0,0,general
+149,Chapati,lunch,118,4,18,2,3,60,general
+150,Rice,lunch,130,2,28,0,1,70,general
+151,Paneer Curry,dinner,240,16,6,15,1,45,general
+152,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+153,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+154,Curd,snack,80,5,3,4,0,35,diabetes
+155,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+156,Fruit Salad,snack,120,2,28,1,4,50,general
+157,Idli,breakfast,65,2,13,1,1,55,diabetes
+158,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+159,Egg Omelette,breakfast,180,12,2,14,0,10,general
+160,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+161,Fish Fry,lunch,220,28,2,12,0,0,general
+162,Chapati,lunch,118,4,18,2,3,60,general
+163,Rice,lunch,130,2,28,0,1,70,general
+164,Paneer Curry,dinner,240,16,6,15,1,45,general
+165,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+166,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+167,Curd,snack,80,5,3,4,0,35,diabetes
+168,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+169,Fruit Salad,snack,120,2,28,1,4,50,general
+170,Idli,breakfast,65,2,13,1,1,55,diabetes
+171,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+172,Egg Omelette,breakfast,180,12,2,14,0,10,general
+173,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+174,Fish Fry,lunch,220,28,2,12,0,0,general
+175,Chapati,lunch,118,4,18,2,3,60,general
+176,Rice,lunch,130,2,28,0,1,70,general
+177,Paneer Curry,dinner,240,16,6,15,1,45,general
+178,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+179,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+180,Curd,snack,80,5,3,4,0,35,diabetes
+181,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+182,Fruit Salad,snack,120,2,28,1,4,50,general
+183,Idli,breakfast,65,2,13,1,1,55,diabetes
+184,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+185,Egg Omelette,breakfast,180,12,2,14,0,10,general
+186,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+187,Fish Fry,lunch,220,28,2,12,0,0,general
+188,Chapati,lunch,118,4,18,2,3,60,general
+189,Rice,lunch,130,2,28,0,1,70,general
+190,Paneer Curry,dinner,240,16,6,15,1,45,general
+191,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+192,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+193,Curd,snack,80,5,3,4,0,35,diabetes
+194,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+195,Fruit Salad,snack,120,2,28,1,4,50,general
+196,Idli,breakfast,65,2,13,1,1,55,diabetes
+197,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+198,Egg Omelette,breakfast,180,12,2,14,0,10,general
+199,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+200,Fish Fry,lunch,220,28,2,12,0,0,general
+201,Chapati,lunch,118,4,18,2,3,60,general
+202,Rice,lunch,130,2,28,0,1,70,general
+203,Paneer Curry,dinner,240,16,6,15,1,45,general
+204,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+205,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+206,Curd,snack,80,5,3,4,0,35,diabetes
+207,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+208,Fruit Salad,snack,120,2,28,1,4,50,general
+209,Idli,breakfast,65,2,13,1,1,55,diabetes
+210,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+211,Egg Omelette,breakfast,180,12,2,14,0,10,general
+212,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+213,Fish Fry,lunch,220,28,2,12,0,0,general
+214,Chapati,lunch,118,4,18,2,3,60,general
+215,Rice,lunch,130,2,28,0,1,70,general
+216,Paneer Curry,dinner,240,16,6,15,1,45,general
+217,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+218,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+219,Curd,snack,80,5,3,4,0,35,diabetes
+220,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+221,Fruit Salad,snack,120,2,28,1,4,50,general
+222,Idli,breakfast,65,2,13,1,1,55,diabetes
+223,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+224,Egg Omelette,breakfast,180,12,2,14,0,10,general
+225,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+226,Fish Fry,lunch,220,28,2,12,0,0,general
+227,Chapati,lunch,118,4,18,2,3,60,general
+228,Rice,lunch,130,2,28,0,1,70,general
+229,Paneer Curry,dinner,240,16,6,15,1,45,general
+230,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+231,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+232,Curd,snack,80,5,3,4,0,35,diabetes
+233,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+234,Fruit Salad,snack,120,2,28,1,4,50,general
+235,Idli,breakfast,65,2,13,1,1,55,diabetes
+236,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+237,Egg Omelette,breakfast,180,12,2,14,0,10,general
+238,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+239,Fish Fry,lunch,220,28,2,12,0,0,general
+240,Chapati,lunch,118,4,18,2,3,60,general
+241,Rice,lunch,130,2,28,0,1,70,general
+242,Paneer Curry,dinner,240,16,6,15,1,45,general
+243,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+244,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+245,Curd,snack,80,5,3,4,0,35,diabetes
+246,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+247,Fruit Salad,snack,120,2,28,1,4,50,general
+248,Idli,breakfast,65,2,13,1,1,55,diabetes
+249,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+250,Egg Omelette,breakfast,180,12,2,14,0,10,general
+251,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+252,Fish Fry,lunch,220,28,2,12,0,0,general
+253,Chapati,lunch,118,4,18,2,3,60,general
+254,Rice,lunch,130,2,28,0,1,70,general
+255,Paneer Curry,dinner,240,16,6,15,1,45,general
+256,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+257,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+258,Curd,snack,80,5,3,4,0,35,diabetes
+259,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+260,Fruit Salad,snack,120,2,28,1,4,50,general
+261,Idli,breakfast,65,2,13,1,1,55,diabetes
+262,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+263,Egg Omelette,breakfast,180,12,2,14,0,10,general
+264,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+265,Fish Fry,lunch,220,28,2,12,0,0,general
+266,Chapati,lunch,118,4,18,2,3,60,general
+267,Rice,lunch,130,2,28,0,1,70,general
+268,Paneer Curry,dinner,240,16,6,15,1,45,general
+269,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+270,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+271,Curd,snack,80,5,3,4,0,35,diabetes
+272,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+273,Fruit Salad,snack,120,2,28,1,4,50,general
+274,Idli,breakfast,65,2,13,1,1,55,diabetes
+275,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+276,Egg Omelette,breakfast,180,12,2,14,0,10,general
+277,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+278,Fish Fry,lunch,220,28,2,12,0,0,general
+279,Chapati,lunch,118,4,18,2,3,60,general
+280,Rice,lunch,130,2,28,0,1,70,general
+281,Paneer Curry,dinner,240,16,6,15,1,45,general
+282,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+283,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+284,Curd,snack,80,5,3,4,0,35,diabetes
+285,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+286,Fruit Salad,snack,120,2,28,1,4,50,general
+287,Idli,breakfast,65,2,13,1,1,55,diabetes
+288,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+289,Egg Omelette,breakfast,180,12,2,14,0,10,general
+290,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+291,Fish Fry,lunch,220,28,2,12,0,0,general
+292,Chapati,lunch,118,4,18,2,3,60,general
+293,Rice,lunch,130,2,28,0,1,70,general
+294,Paneer Curry,dinner,240,16,6,15,1,45,general
+295,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+296,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+297,Curd,snack,80,5,3,4,0,35,diabetes
+298,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+299,Fruit Salad,snack,120,2,28,1,4,50,general
+300,Idli,breakfast,65,2,13,1,1,55,diabetes
+301,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+302,Egg Omelette,breakfast,180,12,2,14,0,10,general
+303,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+304,Fish Fry,lunch,220,28,2,12,0,0,general
+305,Chapati,lunch,118,4,18,2,3,60,general
+306,Rice,lunch,130,2,28,0,1,70,general
+307,Paneer Curry,dinner,240,16,6,15,1,45,general
+308,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+309,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+310,Curd,snack,80,5,3,4,0,35,diabetes
+311,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+312,Fruit Salad,snack,120,2,28,1,4,50,general
+313,Idli,breakfast,65,2,13,1,1,55,diabetes
+314,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+315,Egg Omelette,breakfast,180,12,2,14,0,10,general
+316,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+317,Fish Fry,lunch,220,28,2,12,0,0,general
+318,Chapati,lunch,118,4,18,2,3,60,general
+319,Rice,lunch,130,2,28,0,1,70,general
+320,Paneer Curry,dinner,240,16,6,15,1,45,general
+321,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+322,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+323,Curd,snack,80,5,3,4,0,35,diabetes
+324,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+325,Fruit Salad,snack,120,2,28,1,4,50,general
+326,Idli,breakfast,65,2,13,1,1,55,diabetes
+327,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+328,Egg Omelette,breakfast,180,12,2,14,0,10,general
+329,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+330,Fish Fry,lunch,220,28,2,12,0,0,general
+331,Chapati,lunch,118,4,18,2,3,60,general
+332,Rice,lunch,130,2,28,0,1,70,general
+333,Paneer Curry,dinner,240,16,6,15,1,45,general
+334,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+335,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+336,Curd,snack,80,5,3,4,0,35,diabetes
+337,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+338,Fruit Salad,snack,120,2,28,1,4,50,general
+339,Idli,breakfast,65,2,13,1,1,55,diabetes
+340,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+341,Egg Omelette,breakfast,180,12,2,14,0,10,general
+342,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+343,Fish Fry,lunch,220,28,2,12,0,0,general
+344,Chapati,lunch,118,4,18,2,3,60,general
+345,Rice,lunch,130,2,28,0,1,70,general
+346,Paneer Curry,dinner,240,16,6,15,1,45,general
+347,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+348,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+349,Curd,snack,80,5,3,4,0,35,diabetes
+350,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+351,Fruit Salad,snack,120,2,28,1,4,50,general
+352,Idli,breakfast,65,2,13,1,1,55,diabetes
+353,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+354,Egg Omelette,breakfast,180,12,2,14,0,10,general
+355,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+356,Fish Fry,lunch,220,28,2,12,0,0,general
+357,Chapati,lunch,118,4,18,2,3,60,general
+358,Rice,lunch,130,2,28,0,1,70,general
+359,Paneer Curry,dinner,240,16,6,15,1,45,general
+360,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+361,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+362,Curd,snack,80,5,3,4,0,35,diabetes
+363,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+364,Fruit Salad,snack,120,2,28,1,4,50,general
+365,Idli,breakfast,65,2,13,1,1,55,diabetes
+366,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+367,Egg Omelette,breakfast,180,12,2,14,0,10,general
+368,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+369,Fish Fry,lunch,220,28,2,12,0,0,general
+370,Chapati,lunch,118,4,18,2,3,60,general
+371,Rice,lunch,130,2,28,0,1,70,general
+372,Paneer Curry,dinner,240,16,6,15,1,45,general
+373,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+374,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+375,Curd,snack,80,5,3,4,0,35,diabetes
+376,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+377,Fruit Salad,snack,120,2,28,1,4,50,general
+378,Idli,breakfast,65,2,13,1,1,55,diabetes
+379,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+380,Egg Omelette,breakfast,180,12,2,14,0,10,general
+381,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+382,Fish Fry,lunch,220,28,2,12,0,0,general
+383,Chapati,lunch,118,4,18,2,3,60,general
+384,Rice,lunch,130,2,28,0,1,70,general
+385,Paneer Curry,dinner,240,16,6,15,1,45,general
+386,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+387,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+388,Curd,snack,80,5,3,4,0,35,diabetes
+389,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+390,Fruit Salad,snack,120,2,28,1,4,50,general
+391,Idli,breakfast,65,2,13,1,1,55,diabetes
+392,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+393,Egg Omelette,breakfast,180,12,2,14,0,10,general
+394,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+395,Fish Fry,lunch,220,28,2,12,0,0,general
+396,Chapati,lunch,118,4,18,2,3,60,general
+397,Rice,lunch,130,2,28,0,1,70,general
+398,Paneer Curry,dinner,240,16,6,15,1,45,general
+399,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+400,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+401,Curd,snack,80,5,3,4,0,35,diabetes
+402,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+403,Fruit Salad,snack,120,2,28,1,4,50,general
+404,Idli,breakfast,65,2,13,1,1,55,diabetes
+405,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+406,Egg Omelette,breakfast,180,12,2,14,0,10,general
+407,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+408,Fish Fry,lunch,220,28,2,12,0,0,general
+409,Chapati,lunch,118,4,18,2,3,60,general
+410,Rice,lunch,130,2,28,0,1,70,general
+411,Paneer Curry,dinner,240,16,6,15,1,45,general
+412,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+413,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+414,Curd,snack,80,5,3,4,0,35,diabetes
+415,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+416,Fruit Salad,snack,120,2,28,1,4,50,general
+417,Idli,breakfast,65,2,13,1,1,55,diabetes
+418,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+419,Egg Omelette,breakfast,180,12,2,14,0,10,general
+420,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+421,Fish Fry,lunch,220,28,2,12,0,0,general
+422,Chapati,lunch,118,4,18,2,3,60,general
+423,Rice,lunch,130,2,28,0,1,70,general
+424,Paneer Curry,dinner,240,16,6,15,1,45,general
+425,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+426,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+427,Curd,snack,80,5,3,4,0,35,diabetes
+428,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+429,Fruit Salad,snack,120,2,28,1,4,50,general
+430,Idli,breakfast,65,2,13,1,1,55,diabetes
+431,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+432,Egg Omelette,breakfast,180,12,2,14,0,10,general
+433,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+434,Fish Fry,lunch,220,28,2,12,0,0,general
+435,Chapati,lunch,118,4,18,2,3,60,general
+436,Rice,lunch,130,2,28,0,1,70,general
+437,Paneer Curry,dinner,240,16,6,15,1,45,general
+438,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+439,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+440,Curd,snack,80,5,3,4,0,35,diabetes
+441,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+442,Fruit Salad,snack,120,2,28,1,4,50,general
+443,Idli,breakfast,65,2,13,1,1,55,diabetes
+444,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+445,Egg Omelette,breakfast,180,12,2,14,0,10,general
+446,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+447,Fish Fry,lunch,220,28,2,12,0,0,general
+448,Chapati,lunch,118,4,18,2,3,60,general
+449,Rice,lunch,130,2,28,0,1,70,general
+450,Paneer Curry,dinner,240,16,6,15,1,45,general
+451,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+452,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+453,Curd,snack,80,5,3,4,0,35,diabetes
+454,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+455,Fruit Salad,snack,120,2,28,1,4,50,general
+456,Idli,breakfast,65,2,13,1,1,55,diabetes
+457,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+458,Egg Omelette,breakfast,180,12,2,14,0,10,general
+459,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+460,Fish Fry,lunch,220,28,2,12,0,0,general
+461,Chapati,lunch,118,4,18,2,3,60,general
+462,Rice,lunch,130,2,28,0,1,70,general
+463,Paneer Curry,dinner,240,16,6,15,1,45,general
+464,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+465,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+466,Curd,snack,80,5,3,4,0,35,diabetes
+467,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+468,Fruit Salad,snack,120,2,28,1,4,50,general
+469,Idli,breakfast,65,2,13,1,1,55,diabetes
+470,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+471,Egg Omelette,breakfast,180,12,2,14,0,10,general
+472,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+473,Fish Fry,lunch,220,28,2,12,0,0,general
+474,Chapati,lunch,118,4,18,2,3,60,general
+475,Rice,lunch,130,2,28,0,1,70,general
+476,Paneer Curry,dinner,240,16,6,15,1,45,general
+477,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+478,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+479,Curd,snack,80,5,3,4,0,35,diabetes
+480,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+481,Fruit Salad,snack,120,2,28,1,4,50,general
+482,Idli,breakfast,65,2,13,1,1,55,diabetes
+483,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+484,Egg Omelette,breakfast,180,12,2,14,0,10,general
+485,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+486,Fish Fry,lunch,220,28,2,12,0,0,general
+487,Chapati,lunch,118,4,18,2,3,60,general
+488,Rice,lunch,130,2,28,0,1,70,general
+489,Paneer Curry,dinner,240,16,6,15,1,45,general
+490,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+491,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+492,Curd,snack,80,5,3,4,0,35,diabetes
+493,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+494,Fruit Salad,snack,120,2,28,1,4,50,general
+495,Idli,breakfast,65,2,13,1,1,55,diabetes
+496,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+497,Egg Omelette,breakfast,180,12,2,14,0,10,general
+498,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+499,Fish Fry,lunch,220,28,2,12,0,0,general
+500,Chapati,lunch,118,4,18,2,3,60,general
+501,Rice,lunch,130,2,28,0,1,70,general
+502,Paneer Curry,dinner,240,16,6,15,1,45,general
+503,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+504,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+505,Curd,snack,80,5,3,4,0,35,diabetes
+506,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+507,Fruit Salad,snack,120,2,28,1,4,50,general
+508,Idli,breakfast,65,2,13,1,1,55,diabetes
+509,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+510,Egg Omelette,breakfast,180,12,2,14,0,10,general
+511,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+512,Fish Fry,lunch,220,28,2,12,0,0,general
+513,Chapati,lunch,118,4,18,2,3,60,general
+514,Rice,lunch,130,2,28,0,1,70,general
+515,Paneer Curry,dinner,240,16,6,15,1,45,general
+516,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+517,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+518,Curd,snack,80,5,3,4,0,35,diabetes
+519,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+520,Fruit Salad,snack,120,2,28,1,4,50,general
+521,Idli,breakfast,65,2,13,1,1,55,diabetes
+522,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+523,Egg Omelette,breakfast,180,12,2,14,0,10,general
+524,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+525,Fish Fry,lunch,220,28,2,12,0,0,general
+526,Chapati,lunch,118,4,18,2,3,60,general
+527,Rice,lunch,130,2,28,0,1,70,general
+528,Paneer Curry,dinner,240,16,6,15,1,45,general
+529,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+530,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+531,Curd,snack,80,5,3,4,0,35,diabetes
+532,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+533,Fruit Salad,snack,120,2,28,1,4,50,general
+534,Idli,breakfast,65,2,13,1,1,55,diabetes
+535,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+536,Egg Omelette,breakfast,180,12,2,14,0,10,general
+537,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+538,Fish Fry,lunch,220,28,2,12,0,0,general
+539,Chapati,lunch,118,4,18,2,3,60,general
+540,Rice,lunch,130,2,28,0,1,70,general
+541,Paneer Curry,dinner,240,16,6,15,1,45,general
+542,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+543,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+544,Curd,snack,80,5,3,4,0,35,diabetes
+545,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+546,Fruit Salad,snack,120,2,28,1,4,50,general
+547,Idli,breakfast,65,2,13,1,1,55,diabetes
+548,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+549,Egg Omelette,breakfast,180,12,2,14,0,10,general
+550,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+551,Fish Fry,lunch,220,28,2,12,0,0,general
+552,Chapati,lunch,118,4,18,2,3,60,general
+553,Rice,lunch,130,2,28,0,1,70,general
+554,Paneer Curry,dinner,240,16,6,15,1,45,general
+555,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+556,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+557,Curd,snack,80,5,3,4,0,35,diabetes
+558,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+559,Fruit Salad,snack,120,2,28,1,4,50,general
+560,Idli,breakfast,65,2,13,1,1,55,diabetes
+561,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+562,Egg Omelette,breakfast,180,12,2,14,0,10,general
+563,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+564,Fish Fry,lunch,220,28,2,12,0,0,general
+565,Chapati,lunch,118,4,18,2,3,60,general
+566,Rice,lunch,130,2,28,0,1,70,general
+567,Paneer Curry,dinner,240,16,6,15,1,45,general
+568,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+569,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+570,Curd,snack,80,5,3,4,0,35,diabetes
+571,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+572,Fruit Salad,snack,120,2,28,1,4,50,general
+573,Idli,breakfast,65,2,13,1,1,55,diabetes
+574,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+575,Egg Omelette,breakfast,180,12,2,14,0,10,general
+576,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+577,Fish Fry,lunch,220,28,2,12,0,0,general
+578,Chapati,lunch,118,4,18,2,3,60,general
+579,Rice,lunch,130,2,28,0,1,70,general
+580,Paneer Curry,dinner,240,16,6,15,1,45,general
+581,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+582,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+583,Curd,snack,80,5,3,4,0,35,diabetes
+584,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+585,Fruit Salad,snack,120,2,28,1,4,50,general
+586,Idli,breakfast,65,2,13,1,1,55,diabetes
+587,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+588,Egg Omelette,breakfast,180,12,2,14,0,10,general
+589,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+590,Fish Fry,lunch,220,28,2,12,0,0,general
+591,Chapati,lunch,118,4,18,2,3,60,general
+592,Rice,lunch,130,2,28,0,1,70,general
+593,Paneer Curry,dinner,240,16,6,15,1,45,general
+594,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+595,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+596,Curd,snack,80,5,3,4,0,35,diabetes
+597,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+598,Fruit Salad,snack,120,2,28,1,4,50,general
+599,Idli,breakfast,65,2,13,1,1,55,diabetes
+600,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+601,Egg Omelette,breakfast,180,12,2,14,0,10,general
+602,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+603,Fish Fry,lunch,220,28,2,12,0,0,general
+604,Chapati,lunch,118,4,18,2,3,60,general
+605,Rice,lunch,130,2,28,0,1,70,general
+606,Paneer Curry,dinner,240,16,6,15,1,45,general
+607,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+608,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+609,Curd,snack,80,5,3,4,0,35,diabetes
+610,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+611,Fruit Salad,snack,120,2,28,1,4,50,general
+612,Idli,breakfast,65,2,13,1,1,55,diabetes
+613,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+614,Egg Omelette,breakfast,180,12,2,14,0,10,general
+615,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+616,Fish Fry,lunch,220,28,2,12,0,0,general
+617,Chapati,lunch,118,4,18,2,3,60,general
+618,Rice,lunch,130,2,28,0,1,70,general
+619,Paneer Curry,dinner,240,16,6,15,1,45,general
+620,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+621,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+622,Curd,snack,80,5,3,4,0,35,diabetes
+623,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+624,Fruit Salad,snack,120,2,28,1,4,50,general
+625,Idli,breakfast,65,2,13,1,1,55,diabetes
+626,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+627,Egg Omelette,breakfast,180,12,2,14,0,10,general
+628,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+629,Fish Fry,lunch,220,28,2,12,0,0,general
+630,Chapati,lunch,118,4,18,2,3,60,general
+631,Rice,lunch,130,2,28,0,1,70,general
+632,Paneer Curry,dinner,240,16,6,15,1,45,general
+633,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+634,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+635,Curd,snack,80,5,3,4,0,35,diabetes
+636,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+637,Fruit Salad,snack,120,2,28,1,4,50,general
+638,Idli,breakfast,65,2,13,1,1,55,diabetes
+639,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+640,Egg Omelette,breakfast,180,12,2,14,0,10,general
+641,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+642,Fish Fry,lunch,220,28,2,12,0,0,general
+643,Chapati,lunch,118,4,18,2,3,60,general
+644,Rice,lunch,130,2,28,0,1,70,general
+645,Paneer Curry,dinner,240,16,6,15,1,45,general
+646,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+647,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+648,Curd,snack,80,5,3,4,0,35,diabetes
+649,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+650,Fruit Salad,snack,120,2,28,1,4,50,general
+651,Idli,breakfast,65,2,13,1,1,55,diabetes
+652,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+653,Egg Omelette,breakfast,180,12,2,14,0,10,general
+654,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+655,Fish Fry,lunch,220,28,2,12,0,0,general
+656,Chapati,lunch,118,4,18,2,3,60,general
+657,Rice,lunch,130,2,28,0,1,70,general
+658,Paneer Curry,dinner,240,16,6,15,1,45,general
+659,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+660,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+661,Curd,snack,80,5,3,4,0,35,diabetes
+662,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+663,Fruit Salad,snack,120,2,28,1,4,50,general
+664,Idli,breakfast,65,2,13,1,1,55,diabetes
+665,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+666,Egg Omelette,breakfast,180,12,2,14,0,10,general
+667,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+668,Fish Fry,lunch,220,28,2,12,0,0,general
+669,Chapati,lunch,118,4,18,2,3,60,general
+670,Rice,lunch,130,2,28,0,1,70,general
+671,Paneer Curry,dinner,240,16,6,15,1,45,general
+672,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+673,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+674,Curd,snack,80,5,3,4,0,35,diabetes
+675,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+676,Fruit Salad,snack,120,2,28,1,4,50,general
+677,Idli,breakfast,65,2,13,1,1,55,diabetes
+678,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+679,Egg Omelette,breakfast,180,12,2,14,0,10,general
+680,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+681,Fish Fry,lunch,220,28,2,12,0,0,general
+682,Chapati,lunch,118,4,18,2,3,60,general
+683,Rice,lunch,130,2,28,0,1,70,general
+684,Paneer Curry,dinner,240,16,6,15,1,45,general
+685,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+686,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+687,Curd,snack,80,5,3,4,0,35,diabetes
+688,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+689,Fruit Salad,snack,120,2,28,1,4,50,general
+690,Idli,breakfast,65,2,13,1,1,55,diabetes
+691,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+692,Egg Omelette,breakfast,180,12,2,14,0,10,general
+693,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+694,Fish Fry,lunch,220,28,2,12,0,0,general
+695,Chapati,lunch,118,4,18,2,3,60,general
+696,Rice,lunch,130,2,28,0,1,70,general
+697,Paneer Curry,dinner,240,16,6,15,1,45,general
+698,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+699,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+700,Curd,snack,80,5,3,4,0,35,diabetes
+701,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+702,Fruit Salad,snack,120,2,28,1,4,50,general
+703,Idli,breakfast,65,2,13,1,1,55,diabetes
+704,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+705,Egg Omelette,breakfast,180,12,2,14,0,10,general
+706,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+707,Fish Fry,lunch,220,28,2,12,0,0,general
+708,Chapati,lunch,118,4,18,2,3,60,general
+709,Rice,lunch,130,2,28,0,1,70,general
+710,Paneer Curry,dinner,240,16,6,15,1,45,general
+711,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+712,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+713,Curd,snack,80,5,3,4,0,35,diabetes
+714,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+715,Fruit Salad,snack,120,2,28,1,4,50,general
+716,Idli,breakfast,65,2,13,1,1,55,diabetes
+717,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+718,Egg Omelette,breakfast,180,12,2,14,0,10,general
+719,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+720,Fish Fry,lunch,220,28,2,12,0,0,general
+721,Chapati,lunch,118,4,18,2,3,60,general
+722,Rice,lunch,130,2,28,0,1,70,general
+723,Paneer Curry,dinner,240,16,6,15,1,45,general
+724,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+725,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+726,Curd,snack,80,5,3,4,0,35,diabetes
+727,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+728,Fruit Salad,snack,120,2,28,1,4,50,general
+729,Idli,breakfast,65,2,13,1,1,55,diabetes
+730,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+731,Egg Omelette,breakfast,180,12,2,14,0,10,general
+732,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+733,Fish Fry,lunch,220,28,2,12,0,0,general
+734,Chapati,lunch,118,4,18,2,3,60,general
+735,Rice,lunch,130,2,28,0,1,70,general
+736,Paneer Curry,dinner,240,16,6,15,1,45,general
+737,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+738,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+739,Curd,snack,80,5,3,4,0,35,diabetes
+740,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+741,Fruit Salad,snack,120,2,28,1,4,50,general
+742,Idli,breakfast,65,2,13,1,1,55,diabetes
+743,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+744,Egg Omelette,breakfast,180,12,2,14,0,10,general
+745,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+746,Fish Fry,lunch,220,28,2,12,0,0,general
+747,Chapati,lunch,118,4,18,2,3,60,general
+748,Rice,lunch,130,2,28,0,1,70,general
+749,Paneer Curry,dinner,240,16,6,15,1,45,general
+750,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+751,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+752,Curd,snack,80,5,3,4,0,35,diabetes
+753,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+754,Fruit Salad,snack,120,2,28,1,4,50,general
+755,Idli,breakfast,65,2,13,1,1,55,diabetes
+756,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+757,Egg Omelette,breakfast,180,12,2,14,0,10,general
+758,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+759,Fish Fry,lunch,220,28,2,12,0,0,general
+760,Chapati,lunch,118,4,18,2,3,60,general
+761,Rice,lunch,130,2,28,0,1,70,general
+762,Paneer Curry,dinner,240,16,6,15,1,45,general
+763,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+764,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+765,Curd,snack,80,5,3,4,0,35,diabetes
+766,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+767,Fruit Salad,snack,120,2,28,1,4,50,general
+768,Idli,breakfast,65,2,13,1,1,55,diabetes
+769,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+770,Egg Omelette,breakfast,180,12,2,14,0,10,general
+771,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+772,Fish Fry,lunch,220,28,2,12,0,0,general
+773,Chapati,lunch,118,4,18,2,3,60,general
+774,Rice,lunch,130,2,28,0,1,70,general
+775,Paneer Curry,dinner,240,16,6,15,1,45,general
+776,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+777,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+778,Curd,snack,80,5,3,4,0,35,diabetes
+779,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+780,Fruit Salad,snack,120,2,28,1,4,50,general
+781,Idli,breakfast,65,2,13,1,1,55,diabetes
+782,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+783,Egg Omelette,breakfast,180,12,2,14,0,10,general
+784,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+785,Fish Fry,lunch,220,28,2,12,0,0,general
+786,Chapati,lunch,118,4,18,2,3,60,general
+787,Rice,lunch,130,2,28,0,1,70,general
+788,Paneer Curry,dinner,240,16,6,15,1,45,general
+789,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+790,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+791,Curd,snack,80,5,3,4,0,35,diabetes
+792,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+793,Fruit Salad,snack,120,2,28,1,4,50,general
+794,Idli,breakfast,65,2,13,1,1,55,diabetes
+795,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+796,Egg Omelette,breakfast,180,12,2,14,0,10,general
+797,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+798,Fish Fry,lunch,220,28,2,12,0,0,general
+799,Chapati,lunch,118,4,18,2,3,60,general
+800,Rice,lunch,130,2,28,0,1,70,general
+801,Paneer Curry,dinner,240,16,6,15,1,45,general
+802,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+803,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+804,Curd,snack,80,5,3,4,0,35,diabetes
+805,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+806,Fruit Salad,snack,120,2,28,1,4,50,general
+807,Idli,breakfast,65,2,13,1,1,55,diabetes
+808,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+809,Egg Omelette,breakfast,180,12,2,14,0,10,general
+810,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+811,Fish Fry,lunch,220,28,2,12,0,0,general
+812,Chapati,lunch,118,4,18,2,3,60,general
+813,Rice,lunch,130,2,28,0,1,70,general
+814,Paneer Curry,dinner,240,16,6,15,1,45,general
+815,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+816,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+817,Curd,snack,80,5,3,4,0,35,diabetes
+818,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+819,Fruit Salad,snack,120,2,28,1,4,50,general
+820,Idli,breakfast,65,2,13,1,1,55,diabetes
+821,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+822,Egg Omelette,breakfast,180,12,2,14,0,10,general
+823,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+824,Fish Fry,lunch,220,28,2,12,0,0,general
+825,Chapati,lunch,118,4,18,2,3,60,general
+826,Rice,lunch,130,2,28,0,1,70,general
+827,Paneer Curry,dinner,240,16,6,15,1,45,general
+828,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+829,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+830,Curd,snack,80,5,3,4,0,35,diabetes
+831,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+832,Fruit Salad,snack,120,2,28,1,4,50,general
+833,Idli,breakfast,65,2,13,1,1,55,diabetes
+834,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+835,Egg Omelette,breakfast,180,12,2,14,0,10,general
+836,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+837,Fish Fry,lunch,220,28,2,12,0,0,general
+838,Chapati,lunch,118,4,18,2,3,60,general
+839,Rice,lunch,130,2,28,0,1,70,general
+840,Paneer Curry,dinner,240,16,6,15,1,45,general
+841,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+842,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+843,Curd,snack,80,5,3,4,0,35,diabetes
+844,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+845,Fruit Salad,snack,120,2,28,1,4,50,general
+846,Idli,breakfast,65,2,13,1,1,55,diabetes
+847,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+848,Egg Omelette,breakfast,180,12,2,14,0,10,general
+849,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+850,Fish Fry,lunch,220,28,2,12,0,0,general
+851,Chapati,lunch,118,4,18,2,3,60,general
+852,Rice,lunch,130,2,28,0,1,70,general
+853,Paneer Curry,dinner,240,16,6,15,1,45,general
+854,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+855,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+856,Curd,snack,80,5,3,4,0,35,diabetes
+857,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+858,Fruit Salad,snack,120,2,28,1,4,50,general
+859,Idli,breakfast,65,2,13,1,1,55,diabetes
+860,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+861,Egg Omelette,breakfast,180,12,2,14,0,10,general
+862,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+863,Fish Fry,lunch,220,28,2,12,0,0,general
+864,Chapati,lunch,118,4,18,2,3,60,general
+865,Rice,lunch,130,2,28,0,1,70,general
+866,Paneer Curry,dinner,240,16,6,15,1,45,general
+867,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+868,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+869,Curd,snack,80,5,3,4,0,35,diabetes
+870,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+871,Fruit Salad,snack,120,2,28,1,4,50,general
+872,Idli,breakfast,65,2,13,1,1,55,diabetes
+873,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+874,Egg Omelette,breakfast,180,12,2,14,0,10,general
+875,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+876,Fish Fry,lunch,220,28,2,12,0,0,general
+877,Chapati,lunch,118,4,18,2,3,60,general
+878,Rice,lunch,130,2,28,0,1,70,general
+879,Paneer Curry,dinner,240,16,6,15,1,45,general
+880,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+881,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+882,Curd,snack,80,5,3,4,0,35,diabetes
+883,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+884,Fruit Salad,snack,120,2,28,1,4,50,general
+885,Idli,breakfast,65,2,13,1,1,55,diabetes
+886,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+887,Egg Omelette,breakfast,180,12,2,14,0,10,general
+888,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+889,Fish Fry,lunch,220,28,2,12,0,0,general
+890,Chapati,lunch,118,4,18,2,3,60,general
+891,Rice,lunch,130,2,28,0,1,70,general
+892,Paneer Curry,dinner,240,16,6,15,1,45,general
+893,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+894,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+895,Curd,snack,80,5,3,4,0,35,diabetes
+896,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+897,Fruit Salad,snack,120,2,28,1,4,50,general
+898,Idli,breakfast,65,2,13,1,1,55,diabetes
+899,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+900,Egg Omelette,breakfast,180,12,2,14,0,10,general
+901,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+902,Fish Fry,lunch,220,28,2,12,0,0,general
+903,Chapati,lunch,118,4,18,2,3,60,general
+904,Rice,lunch,130,2,28,0,1,70,general
+905,Paneer Curry,dinner,240,16,6,15,1,45,general
+906,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+907,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+908,Curd,snack,80,5,3,4,0,35,diabetes
+909,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+910,Fruit Salad,snack,120,2,28,1,4,50,general
+911,Idli,breakfast,65,2,13,1,1,55,diabetes
+912,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+913,Egg Omelette,breakfast,180,12,2,14,0,10,general
+914,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+915,Fish Fry,lunch,220,28,2,12,0,0,general
+916,Chapati,lunch,118,4,18,2,3,60,general
+917,Rice,lunch,130,2,28,0,1,70,general
+918,Paneer Curry,dinner,240,16,6,15,1,45,general
+919,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+920,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+921,Curd,snack,80,5,3,4,0,35,diabetes
+922,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+923,Fruit Salad,snack,120,2,28,1,4,50,general
+924,Idli,breakfast,65,2,13,1,1,55,diabetes
+925,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+926,Egg Omelette,breakfast,180,12,2,14,0,10,general
+927,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+928,Fish Fry,lunch,220,28,2,12,0,0,general
+929,Chapati,lunch,118,4,18,2,3,60,general
+930,Rice,lunch,130,2,28,0,1,70,general
+931,Paneer Curry,dinner,240,16,6,15,1,45,general
+932,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+933,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+934,Curd,snack,80,5,3,4,0,35,diabetes
+935,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+936,Fruit Salad,snack,120,2,28,1,4,50,general
+937,Idli,breakfast,65,2,13,1,1,55,diabetes
+938,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+939,Egg Omelette,breakfast,180,12,2,14,0,10,general
+940,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+941,Fish Fry,lunch,220,28,2,12,0,0,general
+942,Chapati,lunch,118,4,18,2,3,60,general
+943,Rice,lunch,130,2,28,0,1,70,general
+944,Paneer Curry,dinner,240,16,6,15,1,45,general
+945,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+946,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+947,Curd,snack,80,5,3,4,0,35,diabetes
+948,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+949,Fruit Salad,snack,120,2,28,1,4,50,general
+950,Idli,breakfast,65,2,13,1,1,55,diabetes
+951,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+952,Egg Omelette,breakfast,180,12,2,14,0,10,general
+953,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+954,Fish Fry,lunch,220,28,2,12,0,0,general
+955,Chapati,lunch,118,4,18,2,3,60,general
+956,Rice,lunch,130,2,28,0,1,70,general
+957,Paneer Curry,dinner,240,16,6,15,1,45,general
+958,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+959,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+960,Curd,snack,80,5,3,4,0,35,diabetes
+961,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+962,Fruit Salad,snack,120,2,28,1,4,50,general
+963,Idli,breakfast,65,2,13,1,1,55,diabetes
+964,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+965,Egg Omelette,breakfast,180,12,2,14,0,10,general
+966,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+967,Fish Fry,lunch,220,28,2,12,0,0,general
+968,Chapati,lunch,118,4,18,2,3,60,general
+969,Rice,lunch,130,2,28,0,1,70,general
+970,Paneer Curry,dinner,240,16,6,15,1,45,general
+971,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+972,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+973,Curd,snack,80,5,3,4,0,35,diabetes
+974,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+975,Fruit Salad,snack,120,2,28,1,4,50,general
+976,Idli,breakfast,65,2,13,1,1,55,diabetes
+977,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+978,Egg Omelette,breakfast,180,12,2,14,0,10,general
+979,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+980,Fish Fry,lunch,220,28,2,12,0,0,general
+981,Chapati,lunch,118,4,18,2,3,60,general
+982,Rice,lunch,130,2,28,0,1,70,general
+983,Paneer Curry,dinner,240,16,6,15,1,45,general
+984,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+985,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+986,Curd,snack,80,5,3,4,0,35,diabetes
+987,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+988,Fruit Salad,snack,120,2,28,1,4,50,general
+989,Idli,breakfast,65,2,13,1,1,55,diabetes
+990,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+991,Egg Omelette,breakfast,180,12,2,14,0,10,general
+992,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+993,Fish Fry,lunch,220,28,2,12,0,0,general
+994,Chapati,lunch,118,4,18,2,3,60,general
+995,Rice,lunch,130,2,28,0,1,70,general
+996,Paneer Curry,dinner,240,16,6,15,1,45,general
+997,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+998,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+999,Curd,snack,80,5,3,4,0,35,diabetes
+1000,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+1001,Fruit Salad,snack,120,2,28,1,4,50,general
+1002,Idli,breakfast,65,2,13,1,1,55,diabetes
+1003,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+1004,Egg Omelette,breakfast,180,12,2,14,0,10,general
+1005,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+1006,Fish Fry,lunch,220,28,2,12,0,0,general
+1007,Chapati,lunch,118,4,18,2,3,60,general
+1008,Rice,lunch,130,2,28,0,1,70,general
+1009,Paneer Curry,dinner,240,16,6,15,1,45,general
+1010,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+1011,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+1012,Curd,snack,80,5,3,4,0,35,diabetes
+1013,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+1014,Fruit Salad,snack,120,2,28,1,4,50,general
+1015,Idli,breakfast,65,2,13,1,1,55,diabetes
+1016,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+1017,Egg Omelette,breakfast,180,12,2,14,0,10,general
+1018,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+1019,Fish Fry,lunch,220,28,2,12,0,0,general
+1020,Chapati,lunch,118,4,18,2,3,60,general
+1021,Rice,lunch,130,2,28,0,1,70,general
+1022,Paneer Curry,dinner,240,16,6,15,1,45,general
+1023,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+1024,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+1025,Curd,snack,80,5,3,4,0,35,diabetes
+1026,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+1027,Fruit Salad,snack,120,2,28,1,4,50,general
+1028,Idli,breakfast,65,2,13,1,1,55,diabetes
+1029,Oats Porridge,breakfast,150,6,27,3,4,40,weight_loss
+1030,Egg Omelette,breakfast,180,12,2,14,0,10,general
+1031,Grilled Chicken,lunch,280,32,1,13,0,0,weight_loss
+1032,Fish Fry,lunch,220,28,2,12,0,0,general
+1033,Chapati,lunch,118,4,18,2,3,60,general
+1034,Rice,lunch,130,2,28,0,1,70,general
+1035,Paneer Curry,dinner,240,16,6,15,1,45,general
+1036,Tofu Curry,dinner,210,18,8,10,2,30,weight_loss
+1037,Vegetable Soup,dinner,95,2,15,3,2,25,diabetes
+1038,Curd,snack,80,5,3,4,0,35,diabetes
+1039,Protein Bar,snack,220,20,21,6,3,45,weight_gain
+1040,Fruit Salad,snack,120,2,28,1,4,50,general
