@@ -3,92 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DietPlan Pro | AI Nutrition</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+    <title>Nutrition Recommendation | Professional Nutrition Designer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div class="blob"></div>
+    <div class="blob2"></div>
+
     <aside class="quote-pillar left">
-        <div class="quote-box">
-            <p>"Let food be thy medicine, and medicine be thy food."</p>
-            <span>— Hippocrates</span>
+        <div class="quote-content">
+            <i class="fas fa-quote-left"></i>
+            <p>Your body is a temple, but only if you treat it as one.</p>
+            <span>— Astrid Alauda</span>
         </div>
-        <div class="quote-box">
-            <p>"A healthy outside starts from the inside."</p>
-            <span>— Robert Urich</span>
+        <div class="quote-content">
+            <i class="fas fa-quote-left"></i>
+            <p>Eating healthy food is a form of self-respect.</p>
+            <span>— Nutrition First</span>
         </div>
     </aside>
 
     <aside class="quote-pillar right">
-        <div class="quote-box">
-            <p>"To eat is a necessity, but to eat intelligently is an art."</p>
-            <span>— La Rochefoucauld</span>
+        <div class="quote-content">
+            <i class="fas fa-quote-left"></i>
+            <p>Fitness starts in the kitchen, not just the gym.</p>
+            <span>— Health Wisdom</span>
         </div>
-        <div class="quote-box">
-            <p>"Your diet is a bank account. Good food choices are investments."</p>
-            <span>— Bethenny Frankel</span>
+        <div class="quote-content">
+            <i class="fas fa-quote-left"></i>
+            <p>Health is not valued till sickness comes.</p>
+            <span>— Thomas Fuller</span>
         </div>
     </aside>
 
-    <header class="hero">
-        <div class="hero-inner">
-            <i class="fas fa-stethoscope"></i>
-            <h1>DietPlan<span>Pro</span></h1>
-            <p>Clinical AI-Driven Nutritional Analysis</p>
-        </div>
-    </header>
-
     <div class="container">
-        <div class="form-card">
+        <header class="main-header">
+            <h1>Nutrition Recommendation<span>AI</span></h1>
+            <p>"Precision nutrition for a better you."</p>
+        </header>
+
+        <main class="glass-card">
             <form id="dietForm">
                 <div class="form-grid">
-                    <div class="input-field">
-                        <label>Age</label>
-                        <input type="number" id="age" placeholder="Age" required>
+                    <div class="input-group">
+                        <label><i class="fas fa-calendar-alt"></i> Age</label>
+                        <input type="number" id="age" placeholder="25" required>
                     </div>
-                    <div class="input-field">
-                        <label>Weight (kg)</label>
-                        <input type="number" id="weight" placeholder="kg" required>
+                    <div class="input-group">
+                        <label><i class="fas fa-weight"></i> Weight (kg)</label>
+                        <input type="number" id="weight" placeholder="70" required>
                     </div>
-                    <div class="input-field">
-                        <label>Height (cm)</label>
-                        <input type="number" id="height" placeholder="cm" required>
+                    <div class="input-group">
+                        <label><i class="fas fa-arrows-alt-v"></i> Height (cm)</label>
+                        <input type="number" id="height" placeholder="175" required>
                     </div>
-                    <div class="input-field">
-                        <label>Gender</label>
+                    <div class="input-group">
+                        <label><i class="fas fa-venus-mars"></i> Gender</label>
                         <select id="gender">
                             <option value="male">Male</option>
                             <option value="female">Female</option>
                         </select>
                     </div>
-                    <div class="input-field">
-                        <label>Goal</label>
+                    <div class="input-group">
+                        <label><i class="fas fa-bullseye"></i> Goal</label>
                         <select id="activity">
-                            <option value="weight_loss">Lose Weight</option>
-                            <option value="maintain">Maintain Health</option>
-                            <option value="weight_gain">Gain Weight</option>
+                            <option value="weight_loss">Weight Loss</option>
+                            <option value="maintain">Maintain Balance</option>
+                            <option value="weight_gain">Build Muscle</option>
                         </select>
                     </div>
                 </div>
 
                 <div class="medical-row">
-                    <label class="check-group">
+                    <label class="toggle-container">
                         <input type="checkbox" id="diabetic">
-                        <span class="box-visual"></span>
-                        Diabetic Profile
+                        <span class="custom-checkbox"></span>
+                        Diabetic Care
                     </label>
-                    <div class="upload-box">
-                        <label for="report">Medical PDF (Optional)</label>
+                    <div class="file-area">
+                        <label for="report">Medical Report (Optional PDF)</label>
                         <input type="file" id="report" accept="application/pdf">
                     </div>
                 </div>
 
-                <button type="submit" id="submitBtn">Generate Clinical Plan</button>
+                <button type="submit" id="submitBtn">
+                    Generate My Plan <i class="fas fa-wand-magic-sparkles"></i>
+                </button>
             </form>
-        </div>
+        </main>
 
-        <div id="result" class="result-area"></div>
+        <div id="result" class="result-glass"></div>
     </div>
 
     <script src="js/app.js"></script>
