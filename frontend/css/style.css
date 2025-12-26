@@ -1,77 +1,107 @@
+:root {
+    --navy: #1a365d;
+    --blue: #3182ce;
+    --light-blue: #ebf8ff;
+    --text: #2d3748;
+    --gray: #718096;
+    --white: #ffffff;
+}
+
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  background: #f5f7fa;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    background: #f7fafc;
+    color: var(--text);
+    line-height: 1.6;
 }
 
 .hero {
-  background: #4CAF50;
-  color: white;
-  padding: 30px;
-  text-align: center;
+    background: linear-gradient(135deg, var(--navy) 0%, #2c5282 100%);
+    color: white;
+    padding: 80px 20px 140px;
+    text-align: center;
 }
+
+.hero i { font-size: 2.5rem; margin-bottom: 15px; opacity: 0.8; }
+.hero h1 { font-size: 2.8rem; margin: 0; font-weight: 800; }
+.hero h1 span { color: #63b3ed; }
 
 .container {
-  max-width: 900px;
-  margin: 30px auto;
+    max-width: 900px;
+    margin: -80px auto 60px;
+    padding: 0 20px;
+    position: relative;
+    z-index: 10;
 }
 
-.card {
-  background: white;
-  padding: 25px;
-  border-radius: 8px;
+/* Quote Sidebars */
+.quote-pillar {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 200px;
+    padding: 20px;
+    z-index: 1;
+}
+.quote-pillar.left { left: 30px; border-right: 2px solid var(--light-blue); text-align: left; }
+.quote-pillar.right { right: 30px; border-left: 2px solid var(--light-blue); text-align: right; }
+
+.quote-box { margin-bottom: 40px; opacity: 0.6; transition: 0.3s; }
+.quote-box:hover { opacity: 1; }
+.quote-box p { font-family: 'Playfair Display', serif; font-style: italic; font-size: 1.1rem; color: var(--navy); margin: 0 0 10px; }
+.quote-box span { font-size: 0.75rem; font-weight: 700; color: var(--blue); text-transform: uppercase; letter-spacing: 1px; }
+
+/* Form Card */
+.form-card {
+    background: var(--white);
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 15px;
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
 }
 
+.input-field label { display: block; font-weight: 700; margin-bottom: 8px; color: var(--navy); font-size: 0.85rem; }
 input, select {
-  padding: 12px;
-  font-size: 15px;
+    width: 100%; padding: 12px; border: 2px solid #e2e8f0; border-radius: 8px; font-size: 1rem; box-sizing: border-box;
+}
+
+.medical-row {
+    margin: 30px 0; background: var(--light-blue); padding: 20px; border-radius: 12px;
+    display: flex; justify-content: space-between; align-items: center;
 }
 
 button {
-  width: 100%;
-  margin-top: 20px;
-  padding: 14px;
-  background: #4CAF50;
-  border: none;
-  color: white;
-  font-size: 16px;
-  cursor: pointer;
+    width: 100%; background: var(--blue); color: white; padding: 18px; border: none; border-radius: 8px;
+    font-size: 1.1rem; font-weight: 700; cursor: pointer; transition: 0.2s;
+}
+button:hover { background: var(--navy); transform: translateY(-2px); }
+
+/* Result Area */
+.result-area {
+    display: none; margin-top: 30px; background: white; padding: 40px; border-radius: 16px; box-shadow: 0 10px 15px rgba(0,0,0,0.05);
 }
 
-button:hover {
-  background: #43a047;
+.stats-header {
+    background: var(--navy); color: white; display: flex; justify-content: space-around; 
+    padding: 20px; border-radius: 12px; margin-bottom: 30px;
 }
 
-.diabetic-row {
-  margin-top: 15px;
-  display: flex;
-  gap: 15px;
-  align-items: center;
-}
+.stat-item h4 { margin: 0; font-size: 0.7rem; opacity: 0.7; text-transform: uppercase; }
+.stat-item p { margin: 5px 0 0; font-size: 1.5rem; font-weight: 800; }
 
-.result {
-  margin-top: 30px;
-  background: white;
-  padding: 25px;
-  border-radius: 8px;
-}
+.meal-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; }
+.meal-card { border: 1px solid #edf2f7; padding: 25px; border-radius: 12px; background: #fff; }
+.meal-card h3 { color: var(--blue); margin-top: 0; border-bottom: 2px solid var(--light-blue); padding-bottom: 10px; text-transform: uppercase; font-size: 0.9rem; }
 
-.meal {
-  margin-top: 20px;
-}
+ul { list-style: none; padding: 0; }
+li { padding: 12px 0; border-bottom: 1px solid #f7fafc; display: flex; justify-content: space-between; align-items: flex-start; }
+.food-name { font-weight: 600; font-size: 0.95rem; }
+.protein-tag { background: #bee3f8; color: #2b6cb0; font-size: 0.7rem; font-weight: 800; padding: 2px 6px; border-radius: 4px; margin-top: 4px; display: inline-block; }
+.cal-text { color: #2d3748; font-weight: 700; font-size: 0.9rem; }
 
-.meal h3 {
-  border-bottom: 2px solid #4CAF50;
-  padding-bottom: 5px;
-}
-
-ul {
-  list-style: disc;
-  margin-left: 20px;
-}
+@media (max-width: 1300px) { .quote-pillar { display: none; } }
