@@ -80,10 +80,45 @@ MINI_PROJECT/
 ├── requirements.txt
 └── README.md
 ```
+## Input Parameters
+```text
+The system accepts:
 
-# Installation and Setup 
-## Clone the Repository 
-```python
+Age
+Weight
+Height
+Gender
+Activity Level
+Goal
+Diabetes Status
+Medical Report (optional)
+``` 
+## Output
+```text
+The system generates:
 
-git clone https://github.com/anushanirudh/smart-meal-recommender.git
+Daily calorie target
+Protein requirement
+Carbohydrate requirement
+Fat requirement
+Personalized meal recommendations
+Breakfast, Lunch, Snack, and Dinner tables
 ```
+## Diabetes Support
+```text
+For diabetic users:
+
+Low glycemic index foods are prioritized
+Uploaded reports can be processed
+Diet plans are adjusted accordingly
+```
+## Future Scope
+```text
+Mobile application support
+Real-time nutrition tracking
+Deep learning based recommendation systems
+Voice assistant integration
+Cloud deployment
+User authentication and history tracking
+```
+
