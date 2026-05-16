@@ -1,49 +1,54 @@
-# 🍽 Smart AI Meal Recommendation System
+# Smart AI Meal Recommendation System
 
-An AI-powered personalized meal recommendation system that generates healthy and personalized diet plans based on user details such as age, weight, height, activity level, and diabetic condition.
+## Project Overview
 
-The project uses:
-- LightGBM Machine Learning model for calorie prediction
-- FastAPI backend
-- HTML/CSS/JavaScript frontend
-- Rule-based nutrition filtering
+Smart AI Meal Recommendation System is an AI-based personalized nutrition recommendation platform that generates healthy meal plans based on user information such as age, weight, height, gender, activity level, goal, and diabetic condition.
+
+The system uses a hybrid approach:
+- Machine Learning (LightGBM) for daily calorie prediction
+- Rule-based recommendation logic for meal generation
+
+The application supports diabetic users by filtering low glycemic index foods and optionally accepting uploaded medical reports.
+
+---
+
+## Features
+
+- Personalized daily calorie prediction
+- Meal plan generation for:
+  - Breakfast
+  - Lunch
+  - Snack
+  - Dinner
 - Diabetes-aware meal recommendations
+- Optional diabetic report upload support
+- Deterministic meal generation
+- FastAPI backend API
+- HTML/CSS/JavaScript frontend interface
+- Machine Learning based recommendation engine
 
 ---
 
-# 🚀 Features
+## Technologies Used
 
-✅ Personalized calorie prediction  
-✅ Breakfast, Lunch, Snack, Dinner meal generation  
-✅ Diabetes-aware food filtering  
-✅ PDF diabetic report upload support  
-✅ Deterministic recommendations (same input → same output)  
-✅ FastAPI backend API  
-✅ Interactive frontend interface  
-✅ ML + Rule-based hybrid recommendation system  
-
----
-
-# 🧠 Technologies Used
-
-## Backend
-- FastAPI
+### Backend
 - Python
+- FastAPI
 - Pandas
-- LightGBM
 - Joblib
+- LightGBM
 
-## Frontend
+### Frontend
 - HTML
 - CSS
 - JavaScript
 
-## Machine Learning
+### Machine Learning
 - LightGBM Regressor
 
 ---
 
-# 📂 Project Structure
+## Project Structure
 
 ```text
 MINI_PROJECT/
@@ -54,10 +59,12 @@ MINI_PROJECT/
 │       ├── recommendation.py
 │       ├── clinical_parser.py
 │       ├── utils.py
+│       │
 │       ├── data/
 │       │   ├── foods.csv
 │       │   ├── users.csv
 │       │   └── uploads/
+│       │
 │       └── models/
 │           └── calorie_macro_predictor_lgbm.pkl
 │
@@ -65,7 +72,9 @@ MINI_PROJECT/
 │   ├── index.html
 │   ├── results.html
 │   ├── css/
+│   │   └── style.css
 │   └── js/
+│       └── app.js
 │
 ├── train_model_lgbm.py
 ├── requirements.txt
