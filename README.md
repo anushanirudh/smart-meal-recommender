@@ -79,3 +79,11 @@ MINI_PROJECT/
 ├── train_model_lgbm.py
 ├── requirements.txt
 └── README.md
+```
+
+# Installation and Setup 
+## Clone the Repository 
+```python
+
+git clone https://github.com/anushanirudh/smart-meal-recommender.git
+```
